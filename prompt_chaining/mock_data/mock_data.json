@@ -1,0 +1,113 @@
+[
+  {
+    "product_id": "P001",
+    "product_name": "Apple iPhone 14 Pro",
+    "product_image_url": "https://www.apple.com/v/iphone-14-pro/f/images/overview/design/hero/hero_static__e7mqhp2x2o2m_large_2x.jpg",
+    "product_features": [
+      "6.1-inch Super Retina XDR OLED display",
+      "A16 Bionic chip",
+      "48 MP Pro camera system",
+      "Dynamic Island & Always-On display",
+      "Emergency SOS via satellite"
+    ],
+    "product_category": "Electronics",
+    "product_specifications": {
+      "screen_size": "6.1 inches",
+      "resolution": "2556x1179 pixels",
+      "storage_options": ["128 GB", "256 GB", "512 GB", "1 TB"],
+      "weight": "206 g",
+      "battery_life": "Up to 23 hours video playback"
+    },
+    "product_price": 999.00,
+    "product_availability": true
+  },
+  {
+    "product_id": "P002",
+    "product_name": "Sony WH-1000XM5 Wireless Headphones",
+    "product_image_url": "https://m.media-amazon.com/images/I/71o8Q5XJS5L._AC_SL1500_.jpg",
+    "product_features": [
+      "Industry-leading noise cancellation",
+      "Up to 30 hour battery life",
+      "Touch sensor controls",
+      "Quick Attention mode",
+      "Multipoint Bluetooth connectivity"
+    ],
+    "product_category": "Audio",
+    "product_specifications": {
+      "driver_unit": "30 mm",
+      "frequency_response": "4 Hz-40,000 Hz (JEITA)",
+      "bluetooth_version": "5.2",
+      "weight": "250 g",
+      "battery_charge_time": "3.5 hours"
+    },
+    "product_price": 399.99,
+    "product_availability": true
+  },
+  {
+    "product_id": "P003",
+    "product_name": "Nikon Z6 II Mirrorless Camera",
+    "product_image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Nikon_Z6_II_body.png",
+    "product_features": [
+      "24.5 MP full-frame BSI CMOS sensor",
+      "Dual EXPEED 6 processors",
+      "In-body image stabilization",
+      "4K UHD video up to 60 fps",
+      "Dual memory card slots (SD & CFexpress/XQD)"
+    ],
+    "product_category": "Photography",
+    "product_specifications": {
+      "sensor_type": "Back-illuminated CMOS",
+      "megapixels": 24.5,
+      "iso_range": "100-51,200 (expandable to 204,800)",
+      "shutter_speed": "30 s-1/8000 s",
+      "weight": "615 g (body only)",
+      "battery_life": "310 shots (CIPA standard)"
+    },
+    "product_price": 1995.00,
+    "product_availability": true
+  },
+  {
+    "product_id": "P004",
+    "product_name": "Apple Watch Series 9",
+    "product_image_url": "https://www.apple.com/v/watch/ab/images/overview/hero/series_9_hero__ecnukqvx3e6m_large.jpg",
+    "product_features": [
+      "ECG & Blood Oxygen apps",
+      "Crash Detection & Fall Detection",
+      "Double-Tap gesture",
+      "Always-On Retina display",
+      "watchOS 10 with redesigned apps"
+    ],
+    "product_category": "Wearables",
+    "product_specifications": {
+      "case_sizes": ["41 mm", "45 mm"],
+      "display": "OLED LTPO Always-On Retina",
+      "sensors": ["ECG", "optical heart", "accelerometer", "gyroscope", "temperature"],
+      "water_resistance": "50 m (5 ATM)",
+      "battery_life": "Up to 18 hours"
+    },
+    "product_price": 399.00,
+    "product_availability": true
+  },
+  {
+    "product_id": "P005",
+    "product_name": "KitchenAid Artisan Series 5 Qt. Tilt-Head Stand Mixer",
+    "product_image_url": "https://images-na.ssl-images-amazon.com/images/I/81TZ44SS4OL._AC_SL1500_.jpg",
+    "product_features": [
+      "325 W motor",
+      "10 mixing speeds",
+      "Tilt-head design",
+      "Polished stainless steel bowl",
+      "10+ attachments available"
+    ],
+    "product_category": "Kitchen Appliances",
+    "product_specifications": {
+      "power": "325 W",
+      "capacity": "5 quarts (4.7 L)",
+      "material": "Die-cast metal",
+      "speeds": 10,
+      "weight": "11.84 kg"
+    },
+    "product_price": 549.98,
+    "product_availability": true
+  }
+]

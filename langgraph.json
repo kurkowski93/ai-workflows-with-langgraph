@@ -1,0 +1,11 @@
+{
+    "docker_lines": [],
+    "graphs": {
+        "prompt_chaining": "prompt_chaining/graph.py:workflow"
+    },
+    "python_version": "3.11",
+    "env": ".env",
+    "dependencies": [
+        "requirements.txt"
+    ]
+}
