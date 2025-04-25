@@ -14,8 +14,8 @@ import os
 import argparse
 
 from langgraph.graph import StateGraph, END, START
-from prompt_chaining.utils.state import ProductDescriptionGeneratorState
-from prompt_chaining.utils.nodes import (
+from prompt_chaining.state import ProductDescriptionGeneratorState
+from prompt_chaining.nodes import (
     find_product_details,
     gate_product_found,
     extract_product_features_from_image,
