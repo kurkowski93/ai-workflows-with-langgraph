@@ -46,7 +46,7 @@ def gate_product_found(state: ProductDescriptionGeneratorState):
 
 def extract_product_features_from_image(state: ProductDescriptionGeneratorState):
 
-    llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)
+    llm = ChatOpenAI(model="gpt-4.1-mini", temperature=0)
 
     res = llm.invoke(
         [
@@ -77,7 +77,7 @@ def generate_product_description(state: ProductDescriptionGeneratorState):
     """
     Generate a description for the product.
     """
-    llm = ChatOpenAI(model="gpt-4o-mini", temperature=0.3)
+    llm = ChatOpenAI(model="gpt-4.1-mini", temperature=0.3)
 
     prompt = f"""
     PRODUCT INFORMATION:
@@ -110,7 +110,7 @@ def generate_product_short_description(state: ProductDescriptionGeneratorState):
     """
     Generate a short description for the product.
     """
-    llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)
+    llm = ChatOpenAI(model="gpt-4.1-mini", temperature=0)
 
     prompt = f"""
     PRODUCT INFORMATION:
@@ -139,7 +139,7 @@ def generate_product_seo_title(state: ProductDescriptionGeneratorState):
     """
     Generate a SEO title for the product.
     """
-    llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)
+    llm = ChatOpenAI(model="gpt-4.1-mini", temperature=0)
 
     prompt = f"""
     PRODUCT INFORMATION:
@@ -169,7 +169,7 @@ def generate_product_seo_description(state: ProductDescriptionGeneratorState):
     """
     Generate a SEO description for the product.
     """
-    llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)
+    llm = ChatOpenAI(model="gpt-4.1-mini", temperature=0)
 
     prompt = f"""
     PRODUCT INFORMATION:
@@ -199,7 +199,7 @@ def generate_product_keywords(state: ProductDescriptionGeneratorState):
     """
     Generate a list of keywords for the product.
     """
-    llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)
+    llm = ChatOpenAI(model="gpt-4.1-mini", temperature=0)
 
     prompt = f"""
     PRODUCT INFORMATION:

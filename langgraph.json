@@ -1,7 +1,8 @@
 {
     "docker_lines": [],
     "graphs": {
-        "prompt_chaining": "prompt_chaining/graph.py:workflow"
+        "prompt_chaining": "prompt_chaining/graph.py:workflow",
+        "parallelization": "parallelization/graph.py:workflow"
     },
     "python_version": "3.11",
     "env": ".env",

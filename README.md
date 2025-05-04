@@ -93,6 +93,24 @@ This launches the LangGraph Studio interface, allowing you to:
 
 A foundational pattern demonstrating how to chain multiple prompts together, where each stage's output serves as input to subsequent stages. This pattern implements a product description generator that transforms raw product data into various forms of marketing content.
 
+### 🔄 2. Parallelization Workflow (`parallelization/`)
+
+An advanced pattern that demonstrates how to break down complex analysis tasks into multiple parallel execution paths. This implementation showcases a legal document analyzer that processes different aspects of contracts simultaneously through five parallel analysis tracks:
+
+1. **Obligation Analysis** - Examines payment terms, delivery timelines, reporting requirements, and performance criteria
+2. **Risk Analysis** - Evaluates liability exposures, termination conditions, warranty gaps, and force majeure clauses
+3. **Opportunity Analysis** - Identifies favorable terms, extension options, and scope expansion possibilities
+4. **Definition Mapping** - Extracts and analyzes defined terms and their consistency throughout the document
+5. **Cross-Reference Validation** - Detects contradictions, inconsistencies, and sequential commitment issues
+
+The pattern illustrates how to:
+- Divide complex tasks into independent subtasks that can run in parallel
+- Structure sequential dependencies within each parallel path
+- Aggregate results from multiple analysis branches
+- Generate comprehensive insights from distributed processing
+
+This approach significantly reduces processing time for document analysis while maintaining deep analytical capabilities, making it ideal for legal contract review, compliance verification, and risk assessment workflows.
+
 ## 🤝 Contributing
 
 We welcome contributions! Please follow these steps:
