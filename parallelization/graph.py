@@ -163,30 +163,3 @@ graph.add_edge("generate_markdown_report", END)
 
 # Compile the graph into an executable workflow
 workflow = graph.compile()
-
-
-def analyze_legal_document(document_text: str, document_type: str) -> Dict:
-    """
-    Execute a comprehensive parallel analysis of a legal document.
-
-    This function serves as the primary entry point for the legal document analysis
-    workflow, initializing the state with document content and triggering the
-    parallel processing pipelines.
-
-    Args:
-        document_text: The complete text content of the legal document to analyze
-        document_type: The document classification (e.g., 'Contract', 'Agreement', 'NDA')
-
-    Returns:
-        Dict: A comprehensive analysis result containing all extracted insights,
-              risk assessments, opportunities, and a structured markdown report
-    """
-    # Initialize the state with core document information
-    initial_state = {
-        "document_text": document_text,
-        "document_type": document_type,
-    }
-
-    # Execute the parallel analysis workflow
-    result = workflow.invoke(initial_state)
-    return result
